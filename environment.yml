@@ -3,20 +3,25 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
+  - root
   - numpy
-  - matplotlib
   - scipy
+  - matplotlib
   - pandas
   - uproot
-  - awkward-array
+  - awkward
   - jupyter
   - ipywidgets
+  - ipykernel
   - pip
   - pip:
     - opengate==10.0.3
     - gatetools
+    - simpleitk
     - pydicom
+    - itk
     - pyvista
+    - vtk
     - tqdm
     - loguru
     - radioactivedecay
